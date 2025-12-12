@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#FFEEBEEB"> 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crisis_alert"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/red_crisis"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnSOS"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/sos_button"
+        android:textSize="24sp"
+        android:backgroundTint="@color/red_crisis"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnTherapist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_therapist"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grounding_exercise"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+</LinearLayout>

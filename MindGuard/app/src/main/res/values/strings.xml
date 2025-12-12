@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MindGuard</string>
+    <string name="welcome_message">Welcome to MindGuard</string>
+    <string name="privacy_consent_header">Data Privacy &amp; Consent</string>
+    <string name="allow_voice">Allow Voice Analysis</string>
+    <string name="allow_sensor">Allow Sensor Tracking</string>
+    <string name="allow_sharing">Allow Anonymized Sharing</string>
+    <string name="continue_btn">Continue</string>
+    <string name="dashboard_title">Wellness Status</string>
+    <string name="risk_overall">Overall Risk</string>
+    <string name="risk_sleep">Sleep Regularity</string>
+    <string name="risk_voice">Voice Patterns</string>
+    <string name="crisis_alert">High Risk Detected</string>
+    <string name="sos_button">Emergency SOS</string>
+    <string name="grounding_exercise">Box Breathing</string>
+    <string name="call_therapist">Call Dr. Smith</string>
+    <string name="checkin_prompt">How are you feeling?</string>
+    <string name="record_audio">Record 30s Journal</string>
+</resources>
